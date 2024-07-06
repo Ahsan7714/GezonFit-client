@@ -42,7 +42,7 @@ const Blog = () => {
     <div>
       {screenSize > 786 ? <Cards /> : <></>}
       <div className="blog-container">
-        <div className="community-head flex gap-2 py-5 text-3xl lg:text-5xl font-semibold justify-center">
+        <div className="blog-head flex gap-2 py-5 text-3xl lg:text-5xl font-semibold justify-center">
           <h1 className="lg:text-6xl text-2xl">Onze Blogs</h1>
         </div>
         {

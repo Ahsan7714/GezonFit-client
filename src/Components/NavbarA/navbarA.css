@@ -1,1 +1,63 @@
-/* */
+/* Existing CSS */
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.font-mono {
+  font-family: monospace;
+}
+
+.shadow-xl {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.hover\:no-underline:hover {
+  text-decoration: none;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.h-\[70px\] {
+  height: 70px;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+/* Media query for screens with a minimum width of 1760px */
+@media  screen and (min-width: 1760px) {
+  .navbar-container {
+    padding-left: 5rem; 
+    padding-right: 5rem;
+  }
+
+  .logo {
+    height: 110px !important; 
+  }
+
+  .navbar-link {
+    font-size: 1.3rem; 
+    padding: 0rem 1rem; 
+  }
+}

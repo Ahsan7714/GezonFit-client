@@ -159,10 +159,92 @@
 }
 
 }
-@media screen and (max-width:px) {
-.product-grid-a {
-  display:flex;
-  flex-direction: column;
+@media screen and (min-width: 1760px) {
+  .vision-header h1{
+    font-size: 3rem;
+  }
+  .vision-header p{
+    font-size: 1.7rem;
+  }
+  .com-sec h1{
+    font-size: 3rem;
+
+  }
+  .com-sec p{
+    font-size: 1.7rem;
+  }
+  .com-sec a{
+    font-size: 1.7rem;
+  }
+  .health-products-a {
+    padding: 70px 40px;
+  }
+
+  .health-products-a h1 {
+    font-size: 3rem; 
+  }
+
+  .health-products-a p {
+    font-size: 1.7rem; 
+    margin-bottom: 40px;
+  }
+
+  .product-grid-a {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px; 
+    max-width: 1400px; 
+  }
+
+  .product-card-a h2 {
+    font-size: 2rem; 
+    margin: 20px 0 15px;
+  }
+
+  .product-card-a p {
+    font-size: 1.2rem; 
+    padding: 0 20px 20px; 
+  }
+
+  .cta-button {
+    padding: 20px 40px;
+    font-size: 1.4em; 
+  }
+
+  .events-section {
+    padding: 60px 30px; 
+  }
+
+  .hero-section {
+    padding: 80px 30px; 
+  }
+
+  .hero-section h1 {
+    font-size: 50px; 
+    margin-bottom: 20px;
+  }
+
+  .hero-section p {
+    font-size: 1.7rem; 
+  }
+
+  .event-cards-1 {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 30px; 
+  }
+
+  .event-card-1 img {
+    height: 200px; 
+  }
+
+  .event-info-1 h2 {
+    font-size: 2rem; 
+  }
+
+  .event-info-1 p {
+    font-size: 1.2rem;
+  }
+  .event-info-1 a{
+    font-size: 1.5rem;
+  }
 }
 
-}

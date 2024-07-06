@@ -176,7 +176,7 @@ const Posts = () => {
 
       {/* Modal */}
       <div
-        className="modal fade"
+        className="modl modal fade"
         id="staticBackdrop"
         tabIndex="-1"
         aria-labelledby="staticBackdropLabel"
@@ -278,14 +278,14 @@ const Posts = () => {
                     />
                   </div>
                 </div>
-                <div className="flex  flex-row justify-between gap-[10px]">
+                <div className=" category flex  flex-row justify-between gap-[10px]">
                   <div className="form-group ">
                     <label>Categorie</label>
                     <select
                       name="category"
                       value={formData.category}
                       onChange={handleChange}
-                      className="form-control"
+                      className=" form-control"
                       required
                     >
                       <option value="">Selecteer Categorie</option>
@@ -322,7 +322,7 @@ const Posts = () => {
                     className="form-control"
                   />
                 </div>
-                <div className="form-group">
+                <div className="form-group ">
                   <label>Beschrijving</label>
                   <textarea
                     name="description"
@@ -430,11 +430,13 @@ const Posts = () => {
             </div>
           ))
         ) : (
-          <div>Geen partners in behandeling</div>
+          <div><p className="no-one"> 
+            Geen partners in behandeling
+            </p></div>
         )}
       </div>
       {/* accepted invites */}
-      <div className=" ml-4">
+      <div className="accepted ml-4">
         <h1 className=" text-4xl font-medium pb-5">
           Geaccepteerde uitnodigingen
         </h1>
@@ -462,7 +464,7 @@ const Posts = () => {
               </div>
             ))
           ) : (
-            <div>Geen geaccepteerde uitnodigingen</div>
+            <div className="nothing">Geen geaccepteerde uitnodigingen</div>
           )}
         </div>
       </div>

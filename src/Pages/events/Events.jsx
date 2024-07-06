@@ -180,7 +180,7 @@ function Events() {
                 <button
                 data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop"
-                className="bg-gradient-to-r from-[#0f8ceb] to-[#1ad0f1] px-3 py-2 text-white rounded-md"
+                className=" modal-btn bg-gradient-to-r from-[#0f8ceb] to-[#1ad0f1] px-3 py-2 text-white rounded-md"
               >
                 Post Event
               </button>

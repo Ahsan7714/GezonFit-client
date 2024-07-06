@@ -32,9 +32,9 @@ const Vision = () => {
     },
   ];
   return (
-    <div className=" py-5 flex flex-col font-outfit">
-      <div className="flex flex-col justify-center items-center gap-9 font-outfit">
-        <p className="text-[40px]">Onze Visie</p>
+    <div className="  py-5 flex flex-col font-outfit">
+      <div className="vision-header flex flex-col justify-center items-center gap-9 font-outfit">
+        <h1 className="text-[40px]">Onze Visie</h1>
         <p className="text-[23px] font-medium px-6 lg:px-10 text-center text-[#6a6c6f]">
           Personen van 50 jaar en ouder in staat stellen om optimale gezondheid
           en geluk te bereiken door gepersonaliseerde fitness en
@@ -43,10 +43,10 @@ const Vision = () => {
       </div>
 
       {/* community */}
-      <div className=" flex flex-col justify-center items-center gap-7 py-9">
-        <p className=" text-[40px] text-center">
+      <div className=" com-sec flex flex-col justify-center items-center gap-7 py-9">
+        <h1 className=" text-[40px] text-center">
           Word Lid van Onze Gemeenschap
-        </p>
+        </h1>
         <div className=" flex flex-col lg:flex-row bg-[#3c608a]">
           <div className=" flex flex-col gap-6 justify-center items-center py-6 lg:py-0">
             <p className=" text-white text-center lg:w-[80%] w-[100%]  text-[28px]">

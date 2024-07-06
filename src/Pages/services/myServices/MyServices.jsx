@@ -132,7 +132,7 @@ function MyServices() {
 
 
   return (
-    <div className="p-[20px]">
+    <div className="p-[20px] font-outfit">
       <div className="myServices-header">
         <h1>Mijn Diensten</h1>
         <button data-bs-toggle="modal" data-bs-target="#staticBackdrop">
@@ -233,7 +233,7 @@ function MyServices() {
                 <textarea
                   id="description"
                   name="description"
-                  className="w-full border-2 border-gray-400 rounded-md py-2 px-1 outline-none"
+                  className="blog-desc w-full border-2 border-gray-400 rounded-md py-2 px-1 outline-none"
                   placeholder="Voer dienstbeschrijving in"
                   value={formData.description}
                   onChange={handleChange}

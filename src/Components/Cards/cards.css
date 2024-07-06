@@ -13,6 +13,7 @@
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     background-color: white;
     flex: 1;
+    
 }
 
 .card-content {
@@ -26,7 +27,7 @@
 
 .card-content img {
   width: 100%;
-    height: 120px;
+    height: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -45,7 +46,6 @@
   color: black;
 }
 
-/* Media queries for responsiveness */
 @media (max-width: 1200px) {
   .cards {
     flex-wrap: wrap;
@@ -73,4 +73,21 @@
   .card {
     flex-wrap: wrap;
   }
+}
+@media screen and (min-width: 1760px) {
+  .cards {
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .card {
+    max-width: 490px;
+    margin: 18px;
+  }
+
+  .card p {
+    font-size: 22px;
+    
+  }
+
 }

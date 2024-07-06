@@ -131,7 +131,7 @@ function WalkingBuddies() {
           {user ? (
             <Link
               to="/posts"
-              className="bg-[#37a8d8] shadow-[#ade6ff] shadow-lg text-white px-4 py-2 rounded hover:bg-[#247394]"
+              className="bg-[#37a8d8] shadow-[#ade6ff] shadow-lg text-white px-4 py-2 rounded hover:bg-[#247394] hover:no-underline"
             >
               Mijn Posts
             </Link>
@@ -140,7 +140,7 @@ function WalkingBuddies() {
               onClick={() =>
                 toast.error("Please SignUp or Login to view posts")
               }
-              className="bg-[#37a8d8] shadow-[#ade6ff] shadow-lg text-white px-4 py-2 rounded hover:bg-[#247394]"
+              className="bg-[#37a8d8] shadow-[#ade6ff] shadow-lg text-white px-4 py-2 rounded hover:bg-[#247394] "
             >
               Mijn Posts
             </button>
@@ -192,7 +192,10 @@ function WalkingBuddies() {
         <div className="walk-posts grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mx-auto">
           {filteredPosts.length === 0 ? (
             <div className="col-span-full text-center text-xl text-gray-500">
+              <p className=" no-one ">
               No person found
+              </p>
+              
             </div>
           ) : (
             filteredPosts.map((post, index) => (
@@ -260,7 +263,7 @@ function WalkingBuddies() {
                   <button
                     data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop"
-                    className="mt-4 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
+                    className="send-btn mt-4 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
                     onClick={() => setPostId(post._id)}
                   >
                     Accepteer Uitnodiging
@@ -327,7 +330,7 @@ function WalkingBuddies() {
                   id="message"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  className="w-full border-2 border-gray-400 rounded-md py-2 px-1 outline-none"
+                  className="w-full border-2 border-gray-400 rounded-md py-2 px-1 outline-none blog-desc"
                   placeholder="Schrijf uw bericht"
                 ></textarea>
               </div>

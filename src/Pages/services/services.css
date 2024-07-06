@@ -151,3 +151,65 @@
 .search-container button:hover {
   background-color: #90c043;
 }
+@media screen and (min-width: 1760px) {
+  .services-container {
+    padding: 40px;
+  }
+
+  /* Services header adjustments for larger screens */
+  .services-header {
+    margin-bottom: 30px;
+  }  
+  .services-header a {
+    padding: 15px 30px; 
+    font-size: 1.2rem; 
+    border-radius: 8px; 
+  }
+
+  .services-header a {
+    padding: 16px 32px; 
+    font-size: 1.6rem;
+  }
+  .services-header h1 {
+    font-size: 3.5rem; 
+  }
+
+  .service-list {
+    gap: 40px; 
+    padding: 30px; 
+  }
+  .service-card {
+    width: calc(33% - 30px); 
+    padding-bottom: 30px; 
+    border-radius: 10px;
+  }
+  .service-card img {
+    height: 350px; 
+  }
+
+  .service-info h2 {
+    font-size: 2rem; 
+    margin: 20px 0; 
+  }
+
+  .service-info p {
+    font-size: 1.3rem; 
+  }
+
+  .details-btn {
+    padding: 15px 30px; 
+    font-size: 1.5rem; 
+    border-radius: 8px; 
+  }
+  .search-container input {
+    padding: 15px; 
+    font-size: 1.2rem; 
+    border-radius: 8px; 
+  }
+
+  .search-container button {
+    padding: 15px 30px; 
+    font-size: 1.2rem;
+    border-radius: 8px; 
+  }
+}

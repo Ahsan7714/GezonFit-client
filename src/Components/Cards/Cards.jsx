@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const data = [
   {
     image:
-      "https://media.istockphoto.com/id/544601144/photo/the-key-to-keeping-fit-is-consistency.jpg?s=612x612&w=0&k=20&c=ocalDQqMN5S5XMnZLRugO6T7ZDz--xG_KnJzCEqlyJw=",
+      "https://images.pexels.com/photos/8126171/pexels-photo-8126171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     heading: "Activiteit Partners",
     link: "/walking-buddies",
   },
@@ -47,7 +47,7 @@ const Cards = () => {
         <div className="card" key={index}>
           <Link to={item.link} key={index}>
             <div className="card-content">
-              <img src={item.image} alt="image" className=" w-[]" />
+              <img src={item.image} alt="image" className="" />
               <p>{item.heading}</p>
             </div>
           </Link>

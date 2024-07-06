@@ -8,7 +8,6 @@
   align-items: center;
 }
 
-
 .image-preview {
   margin-top: 10px;
   max-width: 100%;
@@ -28,7 +27,7 @@
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: calc(33% - 20px); 
+  width: calc(33% - 20px);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -69,13 +68,12 @@
   font-size: 1rem;
   margin-bottom: 10px;
 }
-.status{
+.status {
   padding: 10px 20px;
   background-color: #3c608a;
   color: #fff;
   border: none;
   border-radius: 5px;
-
 }
 .tooltip {
   position: relative;
@@ -92,12 +90,12 @@
   padding: 5px;
   position: absolute;
   z-index: 1;
-  bottom: 125%; 
+  bottom: 125%;
   left: 50%;
   transform: translateX(-50%);
   opacity: 0;
   transition: opacity 0.3s;
-  white-space: nowrap; 
+  white-space: nowrap;
 }
 
 .tooltip:hover .tooltip-text {
@@ -132,3 +130,75 @@
     gap: 15px; /* Adjust gap between posts */
   }
 }
+@media screen and (min-width: 1760px) {
+  .post-container {
+    padding: 40px;
+  }
+
+  .post-header {
+    margin-bottom: 20px;
+  }
+  .post-header h1 {
+    font-size: 3.5rem;
+  }
+  .post-header button {
+    font-size: 1.5rem;
+    padding: 16px 32px;
+  }
+  .myposts {
+    gap: 40px;
+    padding: 40px;
+  }
+
+  .mypost {
+    width: calc(33% - 40px);
+  }
+
+  .mypost-header {
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .mypost-header h2 {
+    font-size: 2.2rem;
+  }
+
+ .mypost-header img {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+  }
+
+  .mypost-body {
+    padding: 20px;
+  }
+
+  .mypost-body h3 {
+    font-size: 1.5rem;
+  }
+
+  .mypost-body p {
+    font-size: 1.2rem;
+  }
+
+  .status {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+  }
+
+  .tooltip .tooltip-text {
+    font-size: 1rem;
+  }
+  .category .form-group select {
+    font-size: 1.5rem; /* Adjusted font size */
+    padding: 16px 32px; /* Increased padding */
+  }
+  
+  .accepted h1{
+    font-size: 2.4rem;
+  }
+  .nothing{
+    font-size: 1.5rem;
+  }
+}
+

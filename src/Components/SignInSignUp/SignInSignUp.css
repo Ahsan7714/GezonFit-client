@@ -94,3 +94,44 @@
     right: 5px;
   }
 }
+ @media screen and (min-width: 1760px) {
+  .auth-popup {
+    width: 50%; 
+    max-width: 600px;
+    padding: 40px; 
+    border-radius: 12px; 
+  }
+
+  .auth-content {
+    padding: 40px;
+    gap: 30px; 
+  }
+.auth-popup h2 {
+    font-size: 2.5rem; 
+  }
+  .auth-content form input {
+    padding: 12px; 
+    font-size: 1.2rem; 
+    border-radius: 8px; 
+  }
+  .auth-content form button {
+    padding: 12px 24px; 
+    font-size: 1.2rem; 
+    border-radius: 8px; 
+  }
+
+  .close-btn {
+    top: 15px; 
+    right: 25px; 
+    font-size: 20px; 
+  }
+
+  .toggle-form-text {
+    font-size: 18px;
+  }
+
+  .toggle-form-span {
+    font-size: 18px !important; 
+  }
+}
+ 

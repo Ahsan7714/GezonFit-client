@@ -77,7 +77,7 @@ if(loading){
 
 
   return (
-    <div className="myBlog-container">
+    <div className="myBlog-container font-outfit">
       <div className="myBolg-header">
         <h1>Mijn Blog</h1>
         <button
@@ -149,7 +149,7 @@ if(loading){
                     Blog Inhoud
                   </label>
                   <textarea
-                    className="form-control focus:outline-none"
+                    className=" blog-desc form-control focus:outline-none"
                     id="blogContent"
                     rows="5"
                     placeholder="Schrijf hier je bloginhoud"

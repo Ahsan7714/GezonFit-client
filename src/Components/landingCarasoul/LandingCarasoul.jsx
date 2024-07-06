@@ -64,7 +64,7 @@ const LandingCarasoul = () => {
                 <img
                   src="./images/h1.jpg"
                   alt=""
-                  className=" w-full object-cover h-[70vh]"
+                  className=" w-full object-cover h-[100vh]"
                 />
               </div>
               <div className=" flex-1 flex flex-col justify-center items-center">

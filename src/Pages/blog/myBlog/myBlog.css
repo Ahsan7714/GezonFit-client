@@ -17,3 +17,19 @@
     }
     
 }
+@media screen and (min-width: 1760px) {
+    .myBlog-container{
+        padding: 40px;
+    }
+    .myBolg-header h1{
+        font-size: 3.6rem;
+    }
+    .myBolg-header button{
+        font-size: 1.5rem;
+        padding: 16px 32px;
+    }
+    .blog-desc{
+        font-size: 1.5rem;
+    }
+    
+}

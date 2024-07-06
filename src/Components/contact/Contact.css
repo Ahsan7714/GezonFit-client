@@ -75,4 +75,36 @@
   
     }
   }
+  @media screen and (min-width: 1760px) {
+    .contact-container {
+      max-width: 700px; 
+      margin: 60px auto; 
+      padding: 40px; 
+    }
+  
+    .contact-container h2 {
+      font-size:  3rem ;  
+      margin-bottom: 30px;
+    }
+  
+    .form-group {
+      margin-bottom: 35px;
+    }
+  
+    .form-group label {
+      font-size: 1.4rem;  
+      margin-bottom: 12px;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      padding: 17px !important; 
+      font-size: 20px;  
+    }
+  
+    .submit-btn {
+      padding: 20px 40px; 
+      font-size: 1.5rem !important;
+    }
+  }
   

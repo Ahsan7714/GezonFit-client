@@ -196,7 +196,7 @@ const MyProducts = () => {
                     value={productData.category}
                     onChange={handleChange}
                     required
-                    className="p-[8px]"
+                    className="p-[8px] category"
                   >
                     <option value="">Selecteer Categorie</option>
                     <option value="Accessoires">Accessoires</option>
@@ -339,7 +339,7 @@ const MyProducts = () => {
             </div>
           ))
         ) : (
-          <p>Geen product gevonden</p>
+          <h1>Geen product gevonden</h1>
         )}
       </div>
     </div>

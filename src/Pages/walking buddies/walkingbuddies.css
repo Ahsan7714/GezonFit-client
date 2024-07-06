@@ -161,3 +161,83 @@
 
   }
 }
+/* Large Screens */
+@media screen and (min-width: 1760px) {
+  .main-container {
+    padding: 40px; 
+  }
+
+  .header-1 h1 {
+    font-size: 3.5rem; 
+  }
+  .header-1 a{
+    font-size: 1.5rem;
+    padding: 16px 32px;
+  } 
+  .filters {
+    gap: 40px; 
+  }
+  .filters h1{
+    font-size: 2.5rem;
+  }
+  .filters input {
+    padding: 15px 30px; 
+    font-size: 1.5rem; 
+    border-radius: 8px;
+  }
+  .filters input::placeholder {
+    font-size: 1.6rem; 
+  }
+  .filters select {
+    padding: 16px 32px  ; 
+    font-size: 1.6rem; 
+    border-radius: 8px;
+  }
+
+  .create-post-btn {
+    padding: 16px 32px; 
+    font-size: 1.5rem; 
+    border-radius: 8px;
+  }
+
+  .walk-posts {
+    gap: 40px; 
+  }
+
+  .walk-post {
+    max-width: 600px;
+    margin: 40px auto; 
+  }
+
+  .post-header h2 {
+    font-size: 2.2rem; 
+    margin-bottom: 20px; 
+  }
+  .post-header img{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+  }
+
+  .post-body h3 {
+    font-size: 1.5rem; 
+    margin-bottom: 15px;
+  }
+
+  .post-body p {
+    font-size: 1.2rem; 
+  }
+
+  .invite-btn {
+    padding: 16px 32px;
+    font-size: 1.5rem; 
+    border-radius: 8px; 
+  }
+  .no-one{
+    font-size: 2rem !important;
+  }
+  .send-btn{
+    font-size: 1.5rem !important;
+    padding: 16px 32px !important;}
+
+}

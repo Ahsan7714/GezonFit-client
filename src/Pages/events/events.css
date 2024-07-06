@@ -90,7 +90,7 @@
   margin-left: 5px;
 }
 
-@media screen and (max-width:414px) {
+@media screen and (max-width: 414px) {
   .events-list {
     display: flex;
     flex-direction: column;
@@ -103,4 +103,64 @@
     flex-direction: column;
     gap: 10px;
   }
+}
+@media screen and (min-width: 1760px) {
+  .header h1 {
+    font-size: 3.5rem;
+  }
+
+  .header input {
+    max-width: 400px !important;
+    padding: 16px !important;
+    font-size: 18px !important;
+  }
+  .header input::placeholder {
+    font-size: 18px !important;
+  }
+  .modal-btn {
+    padding: 16px 32px !important;
+    font-size: 18px !important;
+  }
+
+  .events-list {
+    gap: 40px;
+    margin-top: 30px;
+  }
+
+  .event-card {
+    width: calc(33% - 40px);
+  }
+
+  .event-card img {
+    height: 350px;
+  }
+
+  .event-details h2 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+  }
+
+  .event-details p {
+    font-size: 1.3rem;
+    margin: 6px 0;
+  }
+
+.modal-header h1 {
+  font-size: 2rem !important;
+}
+.modal-header button {
+  font-size: 1.5rem !important;
+}
+.modal-body input,
+label,
+p {
+  font-size: 1.5rem !important;
+}
+.modal-body input {
+  padding: 10px !important;
+}
+.modal-footer button {
+  font-size: 1.5rem !important;
+  padding: 10px 20px !important;
+}
 }

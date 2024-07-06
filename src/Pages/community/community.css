@@ -11,3 +11,36 @@
     width: 90%;
   }
 }
+@media screen and (min-width: 1760px) {
+  .community-head {
+    padding: 40px;
+    font-size: 36px;
+  }
+  .community-head h1 {
+    font-size: 3.5rem;
+  }
+  .head h1{
+    font-size: 2.5rem !important;
+  }
+  .name h1{
+    font-size: 1.9rem !important;
+  }
+  .name span{
+    font-size: 1.5rem !important;
+  }
+  
+  .community-head p {
+    font-size: 1.5rem;
+  }
+  .chat-a {
+    width: 75%;
+  }
+ 
+  .community-head img {
+    width: 50px;
+    height: 50px;
+  }
+  /* .community-head .text-[20px] {
+    font-size: 24px;
+  } */
+}

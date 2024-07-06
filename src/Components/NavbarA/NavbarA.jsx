@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
-import { animateScroll as scroll } from "react-scroll";
 import logo from "../../assets/default1.png";
 import "./navbarA.css";
 
@@ -13,28 +12,28 @@ function NavbarA({ onAuthClick, onNewsletterClick }) {
   };
 
   return (
-    <div className="flex justify-between items-center px-10 py-3 font-mono shadow-xl">
+    <div className="font-outfit navbar-container flex justify-between items-center  px-10 py-3 font-mono shadow-xl">
       <Link to="/" className="">
-        <img src={logo} alt="logo" className="h-[70px]" />
+        <img src={logo} alt="logo" className="logo h-[70px]" />
       </Link>
       <div className="flex gap-5">
         <p>
-          <Link to="/" className="hover:no-underline text-black">
+          <Link to="/" className="navbar-link hover:no-underline text-black mt">
             Startpagina
           </Link>
         </p>
         <p>
-          <button onClick={onAuthClick} className="hover:no-underline text-black">
+          <button onClick={onAuthClick} className="navbar-link hover:no-underline text-black">
             Aanmelden en registreren
           </button>
         </p>
         <p>
-          <button onClick={onNewsletterClick} className="hover:no-underline text-black">
+          <button onClick={onNewsletterClick} className="navbar-link hover:no-underline text-black">
             Nieuwsbrief
           </button>
         </p>
         <p>
-          <button onClick={handleContactClick} className="hover:no-underline text-black">
+          <button onClick={handleContactClick} className="navbar-link hover:no-underline text-black">
             Contact
           </button>
         </p>
